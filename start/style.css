@@ -1,0 +1,36 @@
+@charset "UTF-8";
+* .html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+table, td, th {
+  border: 1px solid #849631;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+td, th {
+  padding: 3px;
+  width: 90px;
+  height: 70px;
+  text-align: center;
+}
+
+td:hover {
+  background-color: #d5efdf;
+}
+
+button {
+  background: none; /* 背景色を無しに設定 */
+  border: none; /* ボーダーを無しに設定 */
+  padding: 0; /* パディングを0に設定 */
+  margin: 0; /* マージンを0に設定 */
+  color: #849631; /* 色を親要素から継承 */
+  text-decoration: none; /* テキストの下線などの装飾を無しに設定 */
+  font: inherit; /* フォントスタイルを親要素から継承 */
+  cursor: pointer; /* カーソルをポインターに設定 */
+  font-size: 1.4rem;
+}
