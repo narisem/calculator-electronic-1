@@ -5,7 +5,7 @@ let numTwo = '';
 const $operator = document.querySelector('#operator');
 const $result = document.querySelector('#result');
 
-//나중에 코드를 주리는 방법도 외워야 함 (라고 해서 전부가 할수 있는건 아니다 )
+//나중에 코드를 줄이는 방법도 외워야 함 (라고 해서 전부가 할수 있는건 아니다 )
 document.querySelector('#num-0').addEventListener('click', () => {
     if (operator) {
         numOne += '0';
