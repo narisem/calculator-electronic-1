@@ -7,13 +7,19 @@ const $result = document.querySelector('#result');
 
 //나중에 코드를 줄이는 방법도 외워야 함 (라고 해서 전부가 할수 있는건 아니다 )
 document.querySelector('#num-0').addEventListener('click', () => {
-    if (operator) {
+    if (operator) {  //플러스가 아직 없다 플러스 전에 숫자 넣기
         numOne += '0';
-    } else {
+    } else { //플러스로 채워져있다 마지막을 넣기
         numTwo += '0';
     }
 });
-document.querySelector('#num-1').addEventListener('click', () => {});
+document.querySelector('#num-1').addEventListener('click', () => {
+     if (operator) { //비어있지 않다
+        numOne += '1';
+    } else { //비어있다
+        numTwo += '1';
+    }
+});
 document.querySelector('#num-2').addEventListener('click', () => {});
 document.querySelector('#num-3').addEventListener('click', () => {});
 document.querySelector('#num-4').addEventListener('click', () => {});
